@@ -12,8 +12,4 @@ export class AppComponent {
   constructor(
     private transferenciasService: TransferenciasService,
   ) {}
-
-  transferir($event){
-    this.transferenciasService.adicionar($event);
-  }
 }
